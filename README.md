@@ -4,7 +4,7 @@ Current function:
 - Extract meta data of scientific literature from savedrecs files of Web of Science (`meta_wos.ipynb`).  
 - Automated opinion extraction and classification for scientific literature in materials science and related fields (`demo.ipynb`).  
   
-This is the source code (demo version) of our Nature Energy submission "Opinion Mining and Deep Learning Methods for Maximising Discoverability of Energy Materials". We use `.ipynb` to show the running results directly (Click the `.ipynb` file and you will see running results of each cell. You can also set up environment in your local machine and try out our functions with your own data). We will develop a more packaged api version of this project later.
+This is the source code of our proposed SSCNN system (demo version) of our Nature Nanotechnology submission "Opinion Mining by Deep Learning Methods for Maximizing Discoverability of Nanomaterials". We use `.ipynb` to show the running results directly (Click the `.ipynb` file and you will see running results of each cell. You can also set up environment in your local machine and try out our functions with your own data). We will develop a more packaged api version of this project later.
 
 Thanks for your attention. 
 
