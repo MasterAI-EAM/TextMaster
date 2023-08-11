@@ -10,12 +10,12 @@ This is the source code of our proposed SSCNN system (demo version) of our Natur
 1. Make sure you have python3.8 and the pip module installed. We recommend using conda environments.  
 2. After git clone this repository to local machine (if you don't have git, you can also create a folder in local machine and download the files), navigate to the root folder of this repository and run `pip install --ignore-installed -r requirements.txt`. Note: if any packages fail to be installed, you may need to install those packages manually by `pip install package_name`.  
 3. Stay in the root folder, manually download the models and data [test_demo.zip](https://drive.google.com/file/d/1e0OCbzQ6GjN_yDYxNhy8ynRx2I16eaCU/view?usp=sharing) and unzipped.
-4. If you are interested in original data of mixed-topic dataset and text data used in 2 experiments, you can download [original_data.zip](https://drive.google.com/file/d/1c1Mc3eWxIIEVQ3EmoLW0dmJMdMYsLY55/view?usp=sharing) and unzipped. meta_wos.ipynb in ALD, Perovskite, thermoelectric is the data preprocessing part (module 1) and visualization of meta data. For End-of-Life, since the full-text papers were manual selected and data was manually annotated, we did not put the original dataset here (may have copyright problem). For thin film, we only give the doi of full-text papers (also avoid copyright problem).
+4. If you are interested in original data of mixed-topic dataset and text data used in 2 experiments, you can download [original_data.zip](https://drive.google.com/file/d/1c1Mc3eWxIIEVQ3EmoLW0dmJMdMYsLY55/view?usp=sharing) and unzipped. meta_wos.ipynb in ALD, Perovskite, thermoelectric is the data preprocessing part (**module 1**) and visualization of meta data. For End-of-Life, since the full-text papers were manual selected and data was manually annotated, we did not put the original dataset here (may have copyright problem). For thin film, we only give the doi of full-text papers (also avoid copyright problem).
 
 ## Introduction of the data directory in test_demo.zip
 - 3_in_1: provide data of each topic in the mixed-topic dataset (for example, eol_driver.txt contains End-of-Life opportunity sentences) and the final version of the train/valid/test set (in .json format).
-- CNN_94_95_93: trained CNN model for opinion extraction (model used in module 2)
-- CNN_Attention_91: trained CNN_Attention model for opinion classification (model used in module 3)
+- CNN_94_95_93: trained CNN model for opinion extraction (model used in **module 2**)
+- CNN_Attention_91: trained CNN_Attention model for opinion classification (model used in **module 3**)
 - final_200.json: sentiment dictionary (200 words version) formed by corpus comparison
 - text.txt: a tiny example text for run demo (including reference sentences in Li case in experiment 2)
 
