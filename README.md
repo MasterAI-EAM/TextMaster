@@ -17,7 +17,7 @@ This is the source code of our proposed SSCNN system (demo version) of our Natur
 - CNN_94_95_93: trained CNN model for opinion extraction (model used in module 2)
 - CNN_Attention_91: trained CNN_Attention model for opinion classification (model used in module 3)
 - final_200.json: sentiment dictionary (200 words version) formed by corpus comparison
-- text.txt: a tiny example text for run demo
+- text.txt: a tiny example text for run demo (including reference sentences in Li case in experiment 2)
 
 ## Introduction of code file meta_wos.ipynb  
 The analysis is based on savedrecs files from Web of Science. The running results shown in this file are based on 22752 perovskite related publications. To get your own savedrecs files, you can search papers on [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) by keywords and the search results should be exported as plain text files.  
