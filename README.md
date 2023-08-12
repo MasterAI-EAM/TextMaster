@@ -52,12 +52,12 @@ If you want to try opinion mining on your own data, please replace the content i
 - data_aug.ipynb: SMOTE method to generate augmentation
 - ald_SSNet_NER.ipynb: run SSNet on perovskite texts
 - supervised_lexicon.ipynb: corpus comparison method
-- experiment_1
+- experiment_1 (only main code)
   - rule_design.ipynb: modify the embedding rank of 83 materials according to the values of our designed features (experiment 1 method 1)
   - sentiment_score.ipynb: generate feature for supervised learning algorithm (experiment 1 method 2)
   - fre_dis.json: generated features (experiment 1 method 2)
   - thermo_SSNet_ml.ipynb: run SSNet on thermoelectrical texts and rank prediction by supervised learning algorithm (experiment 1 method 2)
-- experiment_2
+- experiment_2 (only main code)
   - get_opinions.ipynb: get full-text of thin film papers and run SSNet on thin film texts
   - pattern_recognition.ipynb: predict candidate element combinations by the transition probabilities of elements through collaborative filtering (experiment 2 method 1)
   - LSTM.ipynb: predict candidate element combinations by training LSTM (experiment 2 method 2)
