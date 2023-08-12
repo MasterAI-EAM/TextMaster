@@ -19,8 +19,8 @@ This is the source code of our proposed SSNet system (demo version) of our Natur
 - final_200.json: sentiment dictionary (200 words version) formed by corpus comparison
 - text.txt: a tiny example text for run demo (including reference sentences in Li case in experiment 2)
 
-## Introduction of code file meta_wos.ipynb  
-The analysis is based on savedrecs files from Web of Science. The running results shown in this file are based on 22752 perovskite related publications. To get your own savedrecs files, you can search papers on [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) by keywords and the search results should be exported as plain text files.  
+## Introduction of code file meta_wos.ipynb (for module 1)
+The analysis is based on savedrecs files from Web of Science. The running results shown in this file are based on 22752 perovskite related publications. To get your own savedrecs files, you can search papers on [Web of Science](https://www.webofscience.com/wos/woscc/basic-search) by keywords and the search results should be exported as plain text files. It is also included in the three directories in original_data (three version has a little differences)
 
 We provide following functions:  
 - Extract meta data as a json file 
@@ -47,12 +47,20 @@ CNN-Attention model for opinion classification obtained 91.58% f1-score on test 
 If you want to try opinion mining on your own data, please replace the content in `data/text.txt`.
 
 ## Introduction of other code
+- Visualization.ipynb: draw heatmap
+- ald_SSNet_NER.ipynb: run SSNet on ALD texts and extract material names
 - data_aug.ipynb: SMOTE method to generate augmentation
+- ald_SSNet_NER.ipynb: run SSNet on perovskite texts
 - supervised_lexicon.ipynb: corpus comparison method
-- rule_design.ipynb: modify the embedding rank of 83 materials according to the values of our designed features (experiment 1 method 1)
-- .ipynb:  supervised learning algorithm (experiment 1 method 2)
-- CF.ipynb: predict candidate element combinations by the transition probabilities of elements through collaborative filtering (experiment 2 method 1)
-- LSTM.ipynb: predict candidate element combinations by training LSTM (experiment 2 method 2)
+- experiment_1
+  - rule_design.ipynb: modify the embedding rank of 83 materials according to the values of our designed features (experiment 1 method 1)
+  - sentiment_score.ipynb: generate feature for supervised learning algorithm (experiment 1 method 2)
+  - fre_dis.json: generated features (experiment 1 method 2)
+  - thermo_SSNet_ml.ipynb: run SSNet on thermoelectrical texts and rank prediction by supervised learning algorithm (experiment 1 method 2)
+- experiment_2
+  - get_opinions.ipynb: get full-text of thin film papers and run SSNet on thin film texts
+  - pattern_recognition.ipynb: predict candidate element combinations by the transition probabilities of elements through collaborative filtering (experiment 2 method 1)
+  - LSTM.ipynb: predict candidate element combinations by training LSTM (experiment 2 method 2)
 
 ## Contact  
 If you have any problems, please email: yuweiwan2-c@my.cityu.edu.hk 
