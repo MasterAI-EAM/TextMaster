@@ -26,7 +26,7 @@ We provide following functions:
 - Extract meta data as a json file 
 - Visualization of publishers, journal names, publishment by year, data types, categories
 
-## Introduction of code file demo.ipynb
+## Introduction of code file demo.ipynb (for module 2 & 3)
 The demo of our opinion mining system is composed of two parts: 
 - Reproduce the results of opinion extraction and classification models
 - Run opinion mining on a tiny text sample 
@@ -46,7 +46,7 @@ CNN-Attention model for opinion classification obtained 91.58% f1-score on test 
 
 If you want to try opinion mining on your own data, please replace the content in `data/text.txt`.
 
-## Introduction of other code
+## Introduction of other code (for model training & module 4)
 - Visualization.ipynb: draw heatmap
 - ald_SSNet_NER.ipynb: run SSNet on ALD texts and extract material names
 - data_aug.ipynb: SMOTE method to generate augmentation
